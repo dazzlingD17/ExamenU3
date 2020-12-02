@@ -1,0 +1,18 @@
+package Nodos;
+
+
+public class NodoCola1 {
+	
+	public Object elemento;
+	public int indice;
+	public NodoCola1 siguiente;
+	
+	public NodoCola1(Object elemento, int indice) {
+		
+		this.elemento=elemento;
+		this.indice = indice;
+	    
+		siguiente=null;
+	    
+	}
+}
